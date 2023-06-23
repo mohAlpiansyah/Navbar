@@ -33,8 +33,8 @@ ul{
 }
 .navbar h1{
     color:#ff00aa;
-    padding:15px;
-    font-size: 30px;
+    padding:25px;
+    font-size: 35px;
 }
 .navbar ul li a:hover{
     text-decoration:underline;
@@ -127,4 +127,24 @@ ul{
 }
 .subtitle .I-am{
     font-size: 30px;
+}
+.portofolio{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-porto h1{
+    text-align: center;
+    color: #ff00aa;
+    margin:50px;
+}
+.portofolio .img-porto{
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+}
+.img-porto img{
+    height:350px;
+    width: 350px;
+    margin:20px;
 }
