@@ -8,8 +8,15 @@
     justify-content: space-between;
     border:1px solid;
     height:55px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
     background-color: #00000094;
     padding:0 30px;
+}
+body{
+    background-color:#000;
 }
 ul{
     display:flex;
@@ -31,4 +38,93 @@ ul{
 }
 .navbar ul li a:hover{
     text-decoration:underline;
+}
+.home{
+    border:1px solid;
+    margin-top:170px;
+    margin-left:190px;
+}
+.home h1{
+    padding:15px;
+    width:660px;
+    font-size:50px;
+    color:#fff;
+}
+.home span{
+    color:#ff00aa;
+}
+.home p{
+    color:#fff;
+    padding-top:10px;
+    margin-left:15px;
+    width:400px;    
+}
+.home button{
+    background-color: #ff00aa;
+    color:#fff;
+    padding:15px;
+    width:150px;
+    border:none;
+    margin-left:20px;
+    font-size:19px;
+}
+/* 
+.img{
+   position:fixed;
+   float:right;
+   margin-left:600px;
+    
+}*/
+/* .img img{ 
+    width:500px;
+    height:500px;
+    position:relative;
+    top:40px;
+    margin-right:25px;
+    margin-bottom:300px;
+}*/
+
+.about{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:800px;
+    margin:200px;
+    margin-left:200px;
+}
+.img{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img{
+    width:480px;
+    height:480px;
+    margin:50px;
+}
+.subtitle{
+    border:1px solid;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.subtitle h1{
+    color:#ff00aa;
+    margin:10px;
+    font-size: 30px;
+    padding:5px;
+}
+.subtitle p{
+    color:#fff;
+    font-size:25px;
+    width:350px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:15px;
+}
+.subtitle span{
+    color: #ff00aa;
+}
+.subtitle .I-am{
+    font-size: 30px;
 }
