@@ -38,6 +38,7 @@ ul{
 }
 .navbar ul li a:hover{
     text-decoration:underline;
+    color:#ff00aa
 }
 .home{
     border:1px solid;
@@ -89,7 +90,7 @@ ul{
     align-items: center;
     justify-content: center;
     width:800px;
-    margin:200px;
+    margin:250px;
     margin-left:200px;
 }
 .img{
