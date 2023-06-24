@@ -1,7 +1,8 @@
 *{
     padding:0;
-    margin:0;
+     margin:0; 
 }
+
 .navbar{
     display:flex;
     align-items:center;
@@ -148,4 +149,74 @@ ul{
     height:350px;
     width: 350px;
     margin:20px;
+}
+.img-porto img:hover{
+    transform: scale(1.1);
+}
+
+.contact{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:auto;
+    margin-bottom:40px;
+    width:800px;
+    height:750px;
+}
+.contact h1{
+    color: #fff;
+    font-size:30px;
+}
+.contact p{
+    width:380px;
+    color: #fff;
+    margin:20px;
+}
+.contact-us{
+    background-color: #3d3a3c;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#fff;
+    width:400px;
+    height:400px;
+}
+.contact-us .type{
+    padding:7px;
+    margin:10px;
+    border:none;
+    color:#fff;
+    background-color: #3d3a3c;
+}
+.contact-us .email{
+    padding:10px;
+    border:none;
+    color:#fff;
+    background-color: #3d3a3c;
+}
+.contact .text{
+    width:300px;
+    padding:10px;
+    border: none;
+    margin:10px;
+    background-color: #3d3a3c;
+    color:#fff;
+}
+.contact .message{
+    height:100px;
+    color:#fff;
+    width:250px;
+    border:none;
+    background-color: #3d3a3c
+}
+.contact button{
+    margin:15px;
+    font-size: 20px;
+    padding:10px;
+    width:300px;
+    border:none;
+    background-color: #000000;
+    color:#fff;
 }
